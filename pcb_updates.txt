@@ -1,2 +1,0 @@
-04/04/2020:
-Removed XBEE PRO module. Note that when the module was removed, all GND terminals on the PCB lost their route connections (i.e. all routes had to be reconstructed using autoroute). This may because XBEE PRO had terminals connected to GND and somehow affected all other terminals connected to GND (GND had to be reintialized?). After autorouting, all connections were compared to original PCB design (Spring2016V6.9.sch) and no difference was identified.
