@@ -12912,30 +12912,26 @@ W = angled&lt;p&gt;
 </net>
 <net name="I_1" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="INB1"/>
-<wire x1="170.18" y1="86.36" x2="162.56" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="INA1"/>
 <wire x1="215.9" y1="76.2" x2="220.98" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="76.2" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="101.6" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="101.6" x2="162.56" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="86.36" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
-<junction x="162.56" y="86.36"/>
+<label x="220.98" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="INB1"/>
+<wire x1="170.18" y1="86.36" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
 <label x="154.94" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I_2" class="0">
 <segment>
+<pinref part="U1" gate="A" pin="INB2"/>
+<wire x1="170.18" y1="83.82" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
+<label x="154.94" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
 <pinref part="U1" gate="A" pin="INA2"/>
 <wire x1="215.9" y1="78.74" x2="218.44" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="78.74" x2="218.44" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="99.06" x2="165.1" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="99.06" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="INB2"/>
-<wire x1="165.1" y1="83.82" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="83.82" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
-<junction x="165.1" y="83.82"/>
-<label x="154.94" y="83.82" size="1.778" layer="95"/>
+<label x="218.44" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC" class="0">
