@@ -1,0 +1,33 @@
+Partlist
+
+Exported from Spring2020.brd at 5/9/2022 6:22 PM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part       Value              Package                    Library                Position (mm)         Orientation
+
+5V1                           1X02                       pinhead                (78.395 16.816)       R90
+5V2                           1X02                       pinhead                (78.373 11.119)       R270
+C1         CL05A105KP5NNNC    CAPC1005X55N               SnapEDA Library        (33.555 38.811)       R180
+C2         CL05A105KP5NNNC    CAPC1005X55N               SnapEDA Library        (33.728 47.24)        R0
+C3         UVY1H102MHD        CAP_12.5_X_25_NCH          Test2                  (10.73 37.984)        R270
+COSC       GRM022R71A271KA01L CAPC0402X22N               SnapEDA Library        (27.481 39.632)       R0
+CVM2       CL05B104KB54PNC    CAP_CL_05_SAM              Test                   (16.2 30.4793)        R90
+FRT_ENCODE 3220-10-0100-00    CONN_3220-10-0100-00_CNC   Test                   (50.381 49.749)       R180
+FRT_MTR    1792863            CONN_1792863_PXC           Test                   (10.471 49.56)        R270
+IMU                           MA03-2                     con-lstb               (60.52 49.29)         R0
+PS1        NID100-5           CONV_NID100-5              SnapEDA Library        (73 15)               R180
+PWM        ERJ1GNF6802C       RES_ERJ1GNF6802C           SnapEDA Library        (30.539 47.087)       R0
+PWR_IN     1792863            CONN_1792863_PXC           Test                   (10.543 15.242)       R270
+R-PWM-C    CL03A105MQ3CSNC    CAP_CL03_SAM               Test                   (32.073 47.078)       R0
+RC                            MA04-2                     con-lstb               (71.53 49.249)        R180
+REAR-MOTOR                    MA04-1                     con-lstb               (34.363 49.808)       R0
+REAR_PWR   1792863            CONN_1792863_PXC           Test                   (10.611 25.873)       R270
+ROSC       RC0100JR-075K1L    RESC0402X15N               SnapEDA Library        (27.268 40.557)       R180
+RRS        CSRL3-0R15F8       RES_CSRL3_3-200MOHM_RDN    Test                   (21.403 31.481)       R90
+U$2        IL-712             8PINSOIC                   Spring2016Optoisolator (36.5 43)             R90
+U$7        IL-712             8PINSOIC                   Spring2016Optoisolator (31.204 42.923)       R90
+U1         TB67H401FTG(O,EL)  P-VQFN48-0707-0P50-004_TOS Test                   (22 40.5)             R270
+U2         ABX00012           ARDUINO_ABX00012           SnapEDA Library        (101 46)              R180

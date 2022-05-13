@@ -1891,7 +1891,7 @@ design rules under a new name.</description>
 <wire x1="67.679" y1="50.56" x2="67.72" y2="50.519" width="0.3048" layer="1"/>
 <wire x1="71.2452" y1="23.3952" x2="71.2452" y2="23.34" width="0.3048" layer="1"/>
 <wire x1="65" y1="29.6404" x2="71.2452" y2="23.3952" width="0.3048" layer="1"/>
-<wire x1="39.98" y1="15" x2="60.3" y2="15" width="0.3048" layer="1"/>
+<wire x1="39.98" y1="15" x2="63.06" y2="50.56" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U$7" pad="1"/>

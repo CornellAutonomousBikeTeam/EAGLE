@@ -1702,9 +1702,9 @@ design rules under a new name.</description>
 <contactref element="IMU" pad="1"/>
 <contactref element="U2" pad="17"/>
 <wire x1="51" y1="23.375" x2="50.9252" y2="23.34" width="0.1524" layer="1"/>
-<wire x1="57.5626" y1="40.8126" x2="50.9252" y2="34.1752" width="0.1524" layer="16"/>
-<wire x1="50.9252" y1="34.1752" x2="50.9252" y2="23.34" width="0.1524" layer="16"/>
-<wire x1="57.5626" y1="40.8126" x2="57.5626" y2="44.06700625" width="0.1524" layer="16"/>
+<wire x1="57.5626" y1="43.8126" x2="50.9252" y2="37.1752" width="0.1524" layer="16"/>
+<wire x1="50.9252" y1="37.1752" x2="50.9252" y2="23.34" width="0.1524" layer="16"/>
+<wire x1="57.5626" y1="43.8126" x2="57.5626" y2="44.06700625" width="0.1524" layer="16"/>
 <wire x1="57.5626" y1="44.06700625" x2="57.98" y2="44.48440625" width="0.1524" layer="16"/>
 <wire x1="57.98" y1="44.48440625" x2="57.98" y2="48.02" width="0.1524" layer="16"/>
 </signal>
@@ -1891,7 +1891,7 @@ design rules under a new name.</description>
 <wire x1="67.679" y1="50.56" x2="67.72" y2="50.519" width="0.3048" layer="1"/>
 <wire x1="71.2452" y1="23.3952" x2="71.2452" y2="23.34" width="0.3048" layer="1"/>
 <wire x1="65" y1="29.6404" x2="71.2452" y2="23.3952" width="0.3048" layer="1"/>
-<wire x1="39.98" y1="15" x2="60.3" y2="15" width="0.3048" layer="1"/>
+<wire x1="45.301" y1="48.479" x2="63.06" y2="50.56" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U$7" pad="1"/>
