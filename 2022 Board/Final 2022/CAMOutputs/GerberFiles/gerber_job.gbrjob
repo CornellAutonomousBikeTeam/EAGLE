@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2022-05-12T19:57:57Z",
+        "CreationDate": "2022-09-20T21:27:30Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -15,7 +15,7 @@
         "Name": {
             "ProjectId": "Spring2020"
         },
-        "Owner": "Zachary Nelson <thezenelson@outlook.com>",
+        "Owner": "William Shullich <wes232@cornell.edu>",
         "Size": {
             "X": 76.006,
             "Y": 45.007
