@@ -2141,7 +2141,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <hole x="59.25" y="22.75" drill="2.25"/>
 <hole x="59.25" y="2.25" drill="2.25"/>
 </package>
-<package name="CONN_3220-10-0100-00_CNC" library_version="2" library_locally_modified="yes">
+<package name="CONN_3220-10-0100-00_CNC" urn="urn:adsk.eagle:footprint:37318588/3" library_version="9">
 <pad name="1" x="0" y="0" drill="0.7112" diameter="1.016"/>
 <pad name="2" x="0" y="1.27" drill="0.7112" diameter="1.016"/>
 <pad name="3" x="1.27" y="0" drill="0.7112" diameter="1.016"/>
@@ -2210,6 +2210,16 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="-11.938" y1="-1.8796" x2="-12.065" y2="-1.6256" width="0.1524" layer="47"/>
 <wire x1="-11.938" y1="-1.8796" x2="-11.811" y2="-1.6256" width="0.1524" layer="47"/>
 <wire x1="-12.065" y1="-1.6256" x2="-11.811" y2="-1.6256" width="0.1524" layer="47"/>
+<wire x1="-4.191" y1="-1.9812" x2="9.271" y2="-1.9812" width="0.1524" layer="21"/>
+<wire x1="9.271" y1="-1.9812" x2="9.271" y2="3.2512" width="0.1524" layer="21"/>
+<wire x1="9.271" y1="3.2512" x2="-4.191" y2="3.2512" width="0.1524" layer="21"/>
+<wire x1="-4.191" y1="3.2512" x2="-4.191" y2="-1.9812" width="0.1524" layer="21"/>
+<wire x1="-4.064" y1="-1.8796" x2="9.144" y2="-1.8796" width="0.1524" layer="51"/>
+<wire x1="9.144" y1="-1.8796" x2="9.144" y2="3.1496" width="0.1524" layer="51"/>
+<wire x1="9.144" y1="3.1496" x2="-4.064" y2="3.1496" width="0.1524" layer="51"/>
+<wire x1="-4.064" y1="3.1496" x2="-4.064" y2="-1.8796" width="0.1524" layer="51"/>
+<wire x1="0.381" y1="-1.905" x2="-0.381" y2="-1.905" width="0.508" layer="51" curve="-180"/>
+<wire x1="-0.381" y1="-1.905" x2="0.381" y2="-1.905" width="0.508" layer="51" curve="-180"/>
 <text x="-13.2334" y="-5.9436" size="1.27" layer="47" ratio="6" rot="SR0">Default Padstyle: OX46Y46D28P</text>
 <text x="-13.9954" y="-7.8232" size="1.27" layer="47" ratio="6" rot="SR0">1st Mtg Padstyle: RX110Y80D50P</text>
 <text x="-13.6144" y="-9.7536" size="1.27" layer="47" ratio="6" rot="SR0">2nd Mtg Padstyle: EX70Y70D70P</text>
@@ -2223,21 +2233,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <text x="12.192" y="0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.05in/1.27mm</text>
 <text x="-21.7932" y="1.5748" size="0.635" layer="47" ratio="4" rot="SR0">0.098in/2.502mm</text>
 <text x="-20.5232" y="0.3048" size="0.635" layer="47" ratio="4" rot="SR0">0.197in/5.004mm</text>
-<wire x1="-4.191" y1="-1.9812" x2="9.271" y2="-1.9812" width="0.1524" layer="21"/>
-<wire x1="9.271" y1="-1.9812" x2="9.271" y2="3.2512" width="0.1524" layer="21"/>
-<wire x1="9.271" y1="3.2512" x2="-4.191" y2="3.2512" width="0.1524" layer="21"/>
-<wire x1="-4.191" y1="3.2512" x2="-4.191" y2="-1.9812" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="0" x2="-5.207" y2="0" width="0.508" layer="21" curve="-180"/>
-<wire x1="-5.207" y1="0" x2="-4.445" y2="0" width="0.508" layer="21" curve="-180"/>
 <text x="0.8128" y="0" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<wire x1="-4.064" y1="-1.8796" x2="9.144" y2="-1.8796" width="0.1524" layer="51"/>
-<wire x1="9.144" y1="-1.8796" x2="9.144" y2="3.1496" width="0.1524" layer="51"/>
-<wire x1="9.144" y1="3.1496" x2="-4.064" y2="3.1496" width="0.1524" layer="51"/>
-<wire x1="-4.064" y1="3.1496" x2="-4.064" y2="-1.8796" width="0.1524" layer="51"/>
-<wire x1="0.381" y1="-1.905" x2="-0.381" y2="-1.905" width="0.508" layer="51" curve="-180"/>
-<wire x1="-0.381" y1="-1.905" x2="0.381" y2="-1.905" width="0.508" layer="51" curve="-180"/>
-<wire x1="-4.445" y1="0" x2="-5.207" y2="0" width="0.508" layer="22" curve="-180"/>
-<wire x1="-5.207" y1="0" x2="-4.445" y2="0" width="0.508" layer="22" curve="-180"/>
 <text x="-0.7366" y="0" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 </packages>
@@ -2251,6 +2247,11 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <package3d name="ARDUINO_ABX00012" urn="urn:adsk.eagle:package:35481625/2" type="box" library_version="7" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="ARDUINO_ABX00012"/>
+</packageinstances>
+</package3d>
+<package3d name="CONN_3220-10-0100-00_CNC" urn="urn:adsk.eagle:package:37318594/3" type="box" library_version="9">
+<packageinstances>
+<packageinstance name="CONN_3220-10-0100-00_CNC"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2558,7 +2559,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL03A105MQ3CSNC" x="31.95" y="44.528" size="0.5" layer="27" display="off"/>
 <attribute name="MFR_NAME" value="Samsung" x="31.95" y="44.528" size="0.5" layer="27" display="off"/>
 </element>
-<element name="FRT_ENCODE" library="SnapEDA Library" library_urn="urn:adsk.eagle:library:35481617" package="CONN_3220-10-0100-00_CNC" value="3220-10-0100-00" x="50.381" y="49.749" smashed="yes" rot="R180">
+<element name="FRT_ENCODE" library="SnapEDA Library" library_urn="urn:adsk.eagle:library:35481617" package="CONN_3220-10-0100-00_CNC" package3d_urn="urn:adsk.eagle:package:37318594/3" value="3220-10-0100-00" x="50.381" y="49.749" smashed="yes" rot="R180">
 <attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="50.381" y="49.749" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER_1" value="1175-1627-ND" x="50.381" y="49.749" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="3220-10-0100-00" x="50.381" y="49.749" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3378,11 +3379,6 @@ design rules under a new name.</description>
 <approved hash="5,16,078f13c8199b7b54"/>
 <approved hash="5,16,1ed495f4505a530c"/>
 <approved hash="5,16,c78fd0cec81da9d4"/>
-<approved hash="21,19,e108e30ae30ae108"/>
-<approved hash="21,19,bf7dbf7dbd7fbb7f"/>
-<approved hash="21,19,ae01ac03af83ad81"/>
-<approved hash="21,19,fe010000fc02fc7d"/>
-<approved hash="21,19,4bed49ef49ef4bed"/>
 <approved hash="5,1,078f13c8199b7b54"/>
 <approved hash="23,1,01a088ec298d2b40"/>
 </errors>

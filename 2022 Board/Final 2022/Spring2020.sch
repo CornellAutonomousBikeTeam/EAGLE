@@ -8054,11 +8054,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/2060-452_998-
 <pinref part="ISO_1" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="IMU" gate="1" pin="5"/>
-<wire x1="256.54" y1="35.56" x2="261.62" y2="35.56" width="0.1524" layer="91"/>
-<label x="256.54" y="35.56" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U1" gate="A" pin="VREFA"/>
 <wire x1="175.26" y1="68.58" x2="180.34" y2="68.58" width="0.1524" layer="91"/>
 <label x="175.26" y="68.58" size="1.778" layer="95"/>
@@ -8250,6 +8245,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/2060-452_998-
 <pinref part="5V2" gate="G$1" pin="2"/>
 <wire x1="251.46" y1="124.46" x2="241.3" y2="124.46" width="0.1524" layer="91"/>
 <label x="243.84" y="124.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IMU" gate="1" pin="5"/>
+<wire x1="256.54" y1="35.56" x2="261.62" y2="35.56" width="0.1524" layer="91"/>
+<label x="256.54" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BKPWR" class="0">

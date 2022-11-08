@@ -3195,8 +3195,11 @@ design rules under a new name.</description>
 <contactref element="RRS" pad="2"/>
 <contactref element="RRS1" pad="2"/>
 <wire x1="21.353" y1="32.2231" x2="21.276" y2="32.327" width="0.6096" layer="1"/>
-<wire x1="21.3796" y1="32.2678" x2="25.297" y2="32.309" width="0" layer="19" extent="1-1"/>
-<wire x1="21.276" y1="32.327" x2="21.25" y2="32.375" width="0" layer="19" extent="1-1"/>
+<wire x1="21.276" y1="32.327" x2="23.17999375" y2="32.327" width="1.27" layer="1"/>
+<wire x1="23.17999375" y1="32.327" x2="23.23919375" y2="32.2678" width="1.27" layer="1"/>
+<wire x1="23.23919375" y1="32.2678" x2="25.297" y2="32.2678" width="1.27" layer="1"/>
+<wire x1="25.297" y1="32.2678" x2="25.297" y2="32.309" width="0" layer="19" extent="1-1"/>
+<wire x1="21.276" y1="32.327" x2="21.353" y2="32.2231" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
 <contactref element="U2" pad="28"/>

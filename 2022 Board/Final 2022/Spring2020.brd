@@ -2857,14 +2857,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="3.3V">
 <contactref element="U2" pad="26"/>
-<contactref element="IMU" pad="5"/>
 <contactref element="C1" pad="1"/>
 <contactref element="U1" pad="42"/>
-<wire x1="73.7852" y1="23.34" x2="73.7852" y2="34.542625" width="0.3048" layer="16"/>
-<wire x1="64.684" y1="43.643825" x2="64.684" y2="44.098575" width="0.3048" layer="16"/>
-<wire x1="63.06" y1="45.722575" x2="63.06" y2="48.02" width="0.3048" layer="16"/>
-<wire x1="64.684" y1="44.098575" x2="63.06" y2="45.722575" width="0.3048" layer="16"/>
-<wire x1="73.7852" y1="34.542625" x2="64.684" y2="43.643825" width="0.3048" layer="16"/>
 <wire x1="43.206" y1="27" x2="71.6252" y2="27" width="0.3048" layer="16"/>
 <wire x1="43.206" y1="27" x2="36.248" y2="33.958" width="0.3048" layer="16"/>
 <wire x1="33.873" y1="33.958" x2="36.248" y2="33.958" width="0.3048" layer="16"/>
@@ -3070,6 +3064,9 @@ design rules under a new name.</description>
 <wire x1="37.607753125" y1="23.482753125" x2="37.77584375" y2="23.3146625" width="0.3048" layer="1"/>
 <wire x1="37.625" y1="23.5" x2="37.607753125" y2="23.482753125" width="0.1524" layer="1"/>
 <wire x1="37.625" y1="23.5" x2="37.7682" y2="23.30701875" width="0.1524" layer="1"/>
+<contactref element="IMU" pad="5"/>
+<wire x1="67.72" y1="47.979" x2="63.101" y2="47.979" width="0.3048" layer="16"/>
+<wire x1="63.101" y1="47.979" x2="63.06" y2="48.02" width="0.1524" layer="16"/>
 </signal>
 <signal name="BKPWR">
 <contactref element="PS1" pad="9"/>
